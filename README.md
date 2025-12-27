@@ -117,6 +117,7 @@ Continent slicer
 
 Page navigation buttons
 
+
 📈 Key KPIs Defined
 
 Revenue
@@ -137,6 +138,7 @@ Target vs Actual Performance
 
 (Detailed definitions available in 03_documentation/kpi_definitions.md)
 
+
 🎯 Key Skills Demonstrated
 
 Power BI data modeling & DAX
@@ -153,4 +155,5 @@ Customer & product analytics
 
 👤 Author
 Saurabh Gobare
+
 Aspiring Data Analyst | Power BI | Data Analytics
