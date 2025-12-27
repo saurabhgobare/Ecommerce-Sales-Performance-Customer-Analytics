@@ -1,68 +1,154 @@
-# E-Commerce Sales Performance & Customer Analytics
+🛒 Ecommerce Sales Performance & Customer Analytics
+📌 Project Overview
 
-## 📌 Project Overview
-This project presents an end-to-end Power BI analytics solution built using Excel data.
-It focuses on executive KPIs, customer behavior, product performance, and regional insights
-to support data-driven business decisions.
+This project analyzes e-commerce data using Power BI to deliver executive-level insights into sales performance, customer behavior, product trends, returns, and regional distribution.
 
-⚠️ **Disclaimer:**  
-This project uses a sample e-commerce dataset for learning and portfolio purposes only.
-It is not affiliated with or endorsed by Amazon or any other company.
+The project demonstrates end-to-end data analytics, including data modeling, KPI design, interactive dashboards, forecasting, and drill-through navigation.
 
----
+🛠 Tools & Technologies
 
-## 🛠 Tools Used
-- Excel (Data Source)
-- Power BI (Data Modeling, DAX, Visualization)
+Excel: Source data (CSV files)
 
----
+Power BI: Data modeling, DAX, dashboards, forecasting
 
-## 🗂 Project Structure
-```text
-📦 ecommerce-sales-performance-customer-analytics
-│
-├── 01_data/
-│   └── raw_sales_data.xlsx
-│
-├── 02_power_bi/
-│   ├── ecommerce_sales_dashboard.pbix
-│   └── dashboard_screenshots/
-│       ├── executive_dashboard.png
-│       ├── customer_dashboard.png
-│       ├── map_dashboard.png
-│       └── product_dashboard.png
-│
-├── 03_documentation/
-│   └── dashboard_kpis.md
-│
-└── README.md
-📊 Dashboards Overview
-1️⃣ Executive Dashboard
-KPIs: Revenue, Orders, Profit, Return %
-Features: Forecasting, monthly comparison KPIs, navigation buttons
+Data Modeling: Star schema with fact & dimension tables
+
+📊 Power BI Dashboards
+1️⃣ Executive Sales Dashboard
+
+Purpose: High-level performance tracking for leadership.
+
+Slicers & Navigation
+
+Year
+
+Continent
+
+Reset button
+
+All-page navigation icons
+
+KPI Cards
+
+Revenue
+
+Orders
+
+Profit
+
+Return %
+
+Visuals
+
+Revenue trend with forecasting
+
+Total orders by product category
+
+Top 10 products by revenue, profit, and orders
+
+Monthly revenue, orders, and returns vs previous month
+
+Most ordered product type
+
+Most returned product type
+
+⭐ Drill-Through Feature
+
+The Top 10 Products visual enables drill-through navigation
+
+Clicking a product takes the user directly to the Product Dashboard
+
+Enables detailed product-level analysis without manual page switching
 
 2️⃣ Customer Details Dashboard
-KPIs: Unique Customers, Revenue per Customer
-Insights: Customer trends by income, occupation, and time
 
-3️⃣ Geographic Analysis Dashboard
-KPIs: Total Orders by Region
-Insights: Regional demand analysis using map visualization
+Purpose: Analyze customer demographics and behavior.
 
-4️⃣ Product Performance Dashboard
-KPIs: Monthly Orders, Revenue, Profit vs Target, Return Rate
-Insights: Product performance tracking and trend analysis
+Slicers & Navigation
 
-🎯 Skills Demonstrated
-Power BI dashboard design
+Year
 
-KPI creation and monitoring
+Reset button
 
-DAX calculations
+All-page navigation
+
+KPIs & Visuals
+
+Unique customers
+
+Revenue per customer
+
+Orders by income level
+
+Orders by occupation
+
+Customer trends (year, month, week)
+
+Customer-level matrix (name, orders, revenue)
+
+Top customer by revenue and orders
+
+3️⃣ Product Performance Dashboard (Drill-Through Target)
+
+Purpose: Deep dive into individual product performance.
+
+Visuals
+
+Monthly orders vs target (Gauge)
+
+Monthly revenue vs target (Gauge)
+
+Monthly profit vs target (Gauge)
+
+Product metrics by time period (year, month, week)
+
+Trend analysis by orders, revenue, profit, returns, return rate
+
+4️⃣ Regional Map Dashboard
+
+Purpose: Geographic sales analysis.
+
+Visuals
+
+Region-wise total orders using bubble map
+
+Continent slicer
+
+Page navigation buttons
+
+📈 Key KPIs Defined
+
+Revenue
+
+Profit
+
+Orders
+
+Return Rate
+
+Revenue per Customer
+
+Monthly Growth (MoM)
+
+Product Return Rate
+
+Target vs Actual Performance
+
+(Detailed definitions available in 03_documentation/kpi_definitions.md)
+
+🎯 Key Skills Demonstrated
+
+Power BI data modeling & DAX
+
+Executive dashboard design
 
 Forecasting & trend analysis
 
-Business storytelling with data
+Drill-through navigation
+
+KPI storytelling for business decisions
+
+Customer & product analytics
 
 👤 Author
 Saurabh Gobare
